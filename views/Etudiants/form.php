@@ -1,9 +1,3 @@
-<?php
-session_start();
-if (empty($_SESSION['cmp'])) {
-    header("location:../authent.php");
-}
-?>
 
 <!DOCTYPE html>
 <html lang="fr">

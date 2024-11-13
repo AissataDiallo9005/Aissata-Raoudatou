@@ -16,7 +16,7 @@ if ($_POST['access'] == '1') {
             $_SESSION['cmp'] = $compte;
             header("Location: Etudiants/form.php");
         } else {
-            header("Location: authent.php?msg=1");
+            header("Location: index.php?msg=1");
         }
     } else {
 
