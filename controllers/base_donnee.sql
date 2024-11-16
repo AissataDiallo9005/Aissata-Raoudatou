@@ -4,11 +4,11 @@ SHOW DATABASES;
 
 use projet_php;
 
-CREATE TABLE  Etudiants( 
-matricule VARCHAR(50) PRIMARY KEY , nom VARCHAR(50) NOT NULL, prenom VARCHAR(50) 
-NOT NULL, sexe VARCHAR(1) NOT NULL,tel bigint(50),date_naiss DATE NOT NULL);
-
 ALTER TABLE etudiants ADD COLUMN email VARCHAR(50) NOT NULL;
+
+CREATE TABLE  etudiants( 
+matricule VARCHAR(50) PRIMARY KEY , nom VARCHAR(50) NOT NULL, prenom VARCHAR(50) 
+NOT NULL, sexe VARCHAR(1) NOT NULL,tel bigint(50),email VARCHAR(50) NOT NULL,date_naiss DATE NOT NULL);
 
 CREATE TABLE  enseignants( 
 id INT PRIMARY KEY AUTO_INCREMENT , nom VARCHAR(50) NOT NULL, prenom VARCHAR(50) 

@@ -9,7 +9,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'Authentification</title>
     <!-- Lien vers le CSS de Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="views/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Lien vers le CSS de Google Fonts -->
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
     <style>
